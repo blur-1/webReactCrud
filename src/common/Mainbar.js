@@ -13,7 +13,7 @@ function Mainbar(props) {
                 <div className="col-9">
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/">Home</a>
+                            <Link className="nav-link" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/categorias">Categorias</Link>
