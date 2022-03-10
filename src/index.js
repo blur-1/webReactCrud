@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Mainbar from './common/Mainbar';
+import Footer from './common/Footer';
+import Categorias from './components/Categorias';
+import Pedidos from './components/Pedidos';
+import Productos from './components/Productos';
+import Features from './home/Features';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+  <Mainbar/>
+  <Routes>
+    <Route path='/' element={<App/>}/>
+    <Route path='categorias' element={<Categorias/>}/>
+    <Route path='pedidos' element={<Pedidos/>}/>
+    <Route path='productos' element={<Productos/>}/>
+    <Route path='features' element={<Features/>}/>
+  </Routes>
+  <Footer/>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

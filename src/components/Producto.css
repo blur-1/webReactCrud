@@ -1,0 +1,20 @@
+.rowSelect{
+    background-color: rgba(64, 150, 68, 0.801);
+}
+
+h4{
+    color: rgba(64, 150, 68, 0.801);
+    text-transform: uppercase;
+}  
+
+tr:hover{
+    cursor: pointer;
+    background-color: #8282822c;
+    cursor: pointer;
+}
+.imgProd{
+    padding:10px;
+}
+.imgProd img{
+    background: cover;
+}

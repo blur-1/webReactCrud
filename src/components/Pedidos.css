@@ -1,0 +1,12 @@
+.active-green{
+    background-color: rgba(64, 150, 68, 0.801);
+    cursor: pointer;
+    color: #fff;
+}
+.active-green h5{
+    color: rgba(0, 0, 0, 0.616);
+    font-weight: bold;
+}
+#pedidos{
+    padding:50px;
+}
