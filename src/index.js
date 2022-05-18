@@ -11,7 +11,7 @@ import Footer from './common/Footer';
 import Categorias from './components/Categorias';
 import Pedidos from './components/Pedidos';
 import Productos from './components/Productos';
-import Features from './home/Features';
+import Contacto from './components/Contacto';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -21,7 +21,7 @@ ReactDOM.render(
     <Route path='categorias' element={<Categorias/>}/>
     <Route path='pedidos' element={<Pedidos/>}/>
     <Route path='productos' element={<Productos/>}/>
-    <Route path='features' element={<Features/>}/>
+    <Route path='contacto' element={<Contacto/>}/>
   </Routes>
   <Footer/>
   </BrowserRouter>,

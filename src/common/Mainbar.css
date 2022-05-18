@@ -1,9 +1,29 @@
 #mainbar{
     padding:5px;
+    position: relative;
 }
 
 #logo1{
   margin:8px;
-    width:100px;
-    height:25px;
+    max-width: 100%;
+    display: block;
+}
+.navContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px 5px;
+  text-decoration-style:none ;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav-item{
+  text-decoration: none;
+  text-decoration-style: none;
+}
+.nav-link:hover{
+  color: #27AE60;
+}
+.nav-link:visited{
+  color: #9e9a9a;
 }

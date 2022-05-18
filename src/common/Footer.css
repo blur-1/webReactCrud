@@ -1,6 +1,12 @@
 #main-footer{
     background-color:#8282820a;
-    padding:30px;
+    padding-top:30px;
+}
+
+.footerContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
 }
 
 h5{
@@ -26,9 +32,17 @@ nav{
 
 .padded{
     padding-left:80px;
+    padding-top: 25px;
+}
+.logoContainer{
+    padding: 20px 0px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 #logo{
-    margin-top: 30px;
-    width:100px;
-    height:25px;
+    display: block;
+    max-width: 12%;
+    margin-top:20px;
+    padding: 12px;
 }

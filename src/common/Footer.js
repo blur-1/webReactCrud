@@ -6,7 +6,7 @@ function Footer(props) {
     return (
         <footer id="main-footer">
         <div className="container">
-            <div className="row ">
+            <div className="row  footerContainer">
                 <div className="col-sm-4 col-md-4 padded">
                     <h5>Company</h5>
                     
@@ -36,7 +36,7 @@ function Footer(props) {
                 </div>
                 
             </div >
-            <div className="row ">
+            <div className="row logoContainer">
                     <img src={foto1} id="logo" className="d-block" />
             </div>
         </div>

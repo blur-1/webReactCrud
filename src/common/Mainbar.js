@@ -7,28 +7,26 @@ function Mainbar(props) {
     return (
         <div id="mainbar" className="container">
             <div id="menu" className="row">
-                <div className="col-2">
+                <div className="col-3 ">
                     <img src={foto1} id="logo1" className="d-block" />
                 </div>
                 <div className="col-9">
-                    <ul className="nav justify-content-center">
-                        <li className="nav-item">
+                    <nav className="navContainer">
+                        <div className="nav-item">
                             <Link className="nav-link" aria-current="page" to="/">Home</Link>
-                        </li>
-                        <li className="nav-item">
+                        </div>
+                        <div className="nav-item">
                             <Link className="nav-link" to="/categorias">Categorias</Link>
-                        </li>
-                        <li className="nav-item">
+                        </div>
+                        <div className="nav-item">
                             <Link className="nav-link" to="/pedidos">Pedidos</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link disabled" to="/features">Anuncios</Link >
-                        </li>
-                    </ul>
+                        </div>
+                        <div className="nav-item">
+                            <Link className="nav-link " to="/contacto">Contacto</Link >
+                        </div>
+                    </nav>
                 </div>
-                <div className="col-1">
-                   
-                </div>
+                
             </div>
         </div>
     );

@@ -42,7 +42,7 @@ class Categorias extends Component {
                                 <small>Descripcion:</small>
                                 <p className="card-text"> {itemCate.descripcion}</p>
                             </div>
-                            <div className="card-footer  border-success text-center">Seleccione:&nbsp;
+                            <div className="card-footer  border-success text-center">
                                 <button className="btn btn-success" 
                                 onClick={() => this.actualizarDatos(itemCate)}
                                 data-bs-toggle="modal" data-bs-target="#modalActualizar">Editar</button> &nbsp;
