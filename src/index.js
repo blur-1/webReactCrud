@@ -18,6 +18,7 @@ ReactDOM.render(
   <Mainbar/>
   <Routes>
     <Route path='/' element={<App/>}/>
+    <Route path='webReactCrud' element={<App/>}/>
     <Route path='categorias' element={<Categorias/>}/>
     <Route path='pedidos' element={<Pedidos/>}/>
     <Route path='productos' element={<Productos/>}/>
